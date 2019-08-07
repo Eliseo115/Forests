@@ -7,7 +7,7 @@
 .nav-bar {
     height: 115px;
     width: 100%;
-    background-color: rgb(51, 102, 0);
+    background-color:  rgb(51, 102, 0);
     position: fixed;
     top: 0;
     z-index: 1;
@@ -43,64 +43,37 @@
 
 /*---------End of Nav-Bar-----*/
 
-.hero{
-    background-image: url(https://www.nps.gov/common/uploads/event_calendar/94E7F1E3-CA39-E144-38CC3443A16D28D9.jpg?maxwidth=1200&maxheight=1200&autorotate=false&quality=90);
-    width: 100%;
-    height: 600px;
-    background-repeat:no-repeat;
-    position: relative;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 5%
-}
 
-.hero-content{
-    width:300;
-    height:50px;
-    color: #835d38;
+.about-col {
+    width: 31%;
+    height: 550px;
     text-align:center;
-    top:37%;
-    right: 37%;
-    border: 1px ;
-    padding: 5px;
-    position: absolute;
+    border: 2px solid #797171;
+    margin:7px;
+    margin-top: 200px;
+    padding:5px;
+    float: left;
     
 }
 
-/*-----------End of Main Section------*/
-    
-    .home-content {
-        width: 100%;
-        height:425px;
-        margin-top:15px;
-    }
+.about-container { 
+    height:800px;
+    width:100%;
+}
 
-    .content-img{
-        width: 42%;
-        border: 3px saddlebrown solid;
+.about-img {
+    width: 100%;
+    height: 50%;
+}
 
-    }
+.about-audio{
+    margin-top:55%;
+}
 
-    .content-text{
-        width: 42%;
-        margin-left: 30px;
-        display: inline;
-        margin-top: 20px;
-        border: 3px saddlebrown solid;
-        padding: 2%;
-    }
-
-    .content-img, .content-text {
-        float:left;
-    }
-
-  
-    /*---------------End of Home-Section--------*/
+/*--------End of About Section---------*/
 
 
-
-
- .footer{
+.footer{
     width:100%;
     height: 80px;
     background-color: #e98e33
@@ -129,7 +102,7 @@
     float:left ;
     display:inline;
     margin-top:2.7% ;
-    margin-left:220px;
+    margin-left: 220px;
 }
 
 .fa-facebook-square {
@@ -142,6 +115,6 @@
 
 .fa-twitter {
     color:#1da1f2;
-}
 
-/*---------End of Homepage--------*/
+ 
+/*----------End of About Page-----*/
